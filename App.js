@@ -5,7 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello from RN!</Text>
+        <Text style={styles.tagline}>Hello from RN!</Text>
       </View>
     );
   }
@@ -17,5 +17,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#222",
     alignItems: "center",
     justifyContent: "center"
+  },
+  tagline: {
+    color: "#fff"
   }
 });
